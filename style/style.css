@@ -1,0 +1,41 @@
+.slider{
+    width: 600px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.slider .item{
+    position: relative;
+}
+.slider .item img{
+    width: 100%;
+}
+.slider .item h1{
+    position: absolute;
+    bottom: 15px;
+    font-size: 24px;
+    line-height: 32px;
+    color: white;
+    background-color: rgba(0, 0, 0, 8);
+    padding: 7px 11px;
+}
+.slider .meta{
+    position: relative;
+    bottom: 150px;
+    display: inline-block;
+    background-color: rgba(24, 148, 160, 0.8);
+    padding: 7px 11px;
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+}
+.slider .meta span{
+    margin-left: 10px;
+}
+.slider .text{
+    position: relative;
+    bottom: 50px;
+}
+.slider .text p{
+    font-size: 25px;
+    line-height: 32px;
+}
